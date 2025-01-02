@@ -16,8 +16,8 @@ load_dotenv()
 
 # Create a .env file and add your API keys
 with open(".env", "w") as f:
-    f.write('GROQ_API_KEY="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"\n')
-    f.write('GOOGLE_API_KEY="AIzaSyCHrI6l8_qFZXh7hlG8sjDcGPgHa2uLM4k"\n')
+    f.write('GROQ_API_KEY="Enter Groq Api Key")
+    f.write('GOOGLE_API_KEY="Enter Google Api Key")
 
 from dotenv import load_dotenv
 import os
